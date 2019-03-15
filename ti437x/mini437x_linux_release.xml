@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<manifest>
+	<remote name="dev.tencent" fetch="https://git.dev.tencent.com" review="https://git.dev.tencent.com"/>
+
+	<default revision="master" remote="dev.tencent" sync-c="true" sync-j="4"/>
+	<!-- uboot -->
+  	<project name="codebug8/mini437x_uboot" path="uboot2016.06" revision="master"/>
+  	<!-- kernel -->
+	<project name="codebug8/mini437x_kernel" path="linux-4.9.69" revision="master"/>
+  	
+  	<!-- buildroot -->
+  	<project name="codebug8/mini437x_buildroot2018" path="buildroot2018" revision="master"/>
+
+</manifest>	
+
