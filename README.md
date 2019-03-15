@@ -36,21 +36,21 @@ $ repo init -u https://dev.tencent.com/u/weidongshan/p/manifests/git -b linux-sd
 ```
 $ mkdir -p firefly-rk3288
 $ cd firefly-rk3288
-$ repo init -u https://dev.tencent.com/u/weidongshan/p/manifests/git -b linux-sdk -m ti437x/mini437x_linux_release.xml --no-repo-verify
+$ repo init -u https://dev.tencent.com/u/weidongshan/p/manifests/git -b linux-sdk -m rk3288/firefly-rk3288_linux_release.xml --no-repo-verify
 ```
 ## roc-rk3399开发板
 获取源码
 ```
 $ mkdir -p firefly-rk3288
 $ cd firefly-rk3288
-$ repo init -u https://dev.tencent.com/u/weidongshan/p/manifests/git -b linux-sdk -m ti437x/mini437x_linux_release.xml --no-repo-verify
+$ repo init -u https://dev.tencent.com/u/weidongshan/p/manifests/git -b linux-sdk -m rk3399/roc-rk3399_linux_release.xml --no-repo-verify
 ```
 ## ti335x开发板
 获取源码
 ```
 $ mkdir -p firefly-rk3288
 $ cd firefly-rk3288
-$ repo init -u https://dev.tencent.com/u/weidongshan/p/manifests/git -b linux-sdk -m ti437x/mini437x_linux_release.xml --no-repo-verify
+$ repo init -u https://dev.tencent.com/u/weidongshan/p/manifests/git -b linux-sdk -m ti335x/ti335x_linux_release.xml --no-repo-verify
 ```
 
 # 同步代码repo sync
