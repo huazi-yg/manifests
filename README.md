@@ -1,7 +1,7 @@
 Buildroot SDK
----
-# 配置repo
+------
 
+# 配置repo
 ## 下载repo
 根据您的办公网络情况，从以下链接获取repo工具。
 
@@ -25,17 +25,33 @@ https://git.dev.tencent.com/codebug8/repo.git
 ```
 # 初始化仓库 repo init
 ## mini437x开发板
+获取源码
 ```
 $ mkdir -p mini437x
 $ cd mini437x
 $ repo init -u https://dev.tencent.com/u/weidongshan/p/manifests/git -b linux-sdk -m ti437x/mini437x_linux_release.xml --no-repo-verify
 ```
 ## firefly-rk3288开发板
+获取源码
+```
+$ mkdir -p firefly-rk3288
+$ cd firefly-rk3288
+$ repo init -u https://dev.tencent.com/u/weidongshan/p/manifests/git -b linux-sdk -m ti437x/mini437x_linux_release.xml --no-repo-verify
+```
 ## roc-rk3399开发板
+获取源码
+```
+$ mkdir -p firefly-rk3288
+$ cd firefly-rk3288
+$ repo init -u https://dev.tencent.com/u/weidongshan/p/manifests/git -b linux-sdk -m ti437x/mini437x_linux_release.xml --no-repo-verify
+```
 ## ti335x开发板
-新建目录存放仓库
-
-
+获取源码
+```
+$ mkdir -p firefly-rk3288
+$ cd firefly-rk3288
+$ repo init -u https://dev.tencent.com/u/weidongshan/p/manifests/git -b linux-sdk -m ti437x/mini437x_linux_release.xml --no-repo-verify
+```
 
 # 同步代码repo sync
 
@@ -52,4 +68,7 @@ Syncing work tree: 100% (3/3), done
 ```
 # 代码目录
 查看下载好的源码目录
+```
+ls -l
+```
 
