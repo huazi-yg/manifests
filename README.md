@@ -28,7 +28,7 @@ https://git.dev.tencent.com/codebug8/repo.git
 ```
 $ mkdir -p mini437x
 $ cd mini437x
-$ repo init -u https://dev.tencent.com/u/weidongshan/p/manifest/ -b linux-sdk -m ti437x/mini437x_linux_release.xml --no-repo-verify
+$ repo init -u https://dev.tencent.com/u/weidongshan/p/manifests/git -b linux-sdk -m ti437x/mini437x_linux_release.xml --no-repo-verify
 ```
 ## firefly-rk3288开发板
 ## roc-rk3399开发板
