@@ -11,5 +11,7 @@
   	
   	<!-- buildroot -->
   	<project name="weidongshan/100ask_am3358_buildroot" path="buildroot2018" revision="master"/>
-
+	 
+  	<!-- ToolChain -->
+  	<project name="weidongshan/ToolChain-5.3.1" path="ToolChain" revision="master"/>
 </manifest>	
