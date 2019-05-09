@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<manifest>
+	<remote name="dev.tencent" fetch="https://git.dev.tencent.com" review="https://git.dev.tencent.com"/>
+
+	<default revision="master" remote="dev.tencent" sync-c="true" sync-j="4"/>
+	<!-- uboot -->
+  	<project name="codebug8/tiny4412-uboot" path="uboot2016.06" revision="master"/>
+  	<!-- kernel -->
+	<project name="codebug8/tiny4412-kernel" path="linux-4.4" revision="master"/>
+  	
+  	<!-- buildroot -->
+  	<project name="codebug8/tiny4412-buildroot" path="buildroot2018" revision="master"/>
+	 
+  	<!-- ToolChain -->
+  	<project name="codebug8/ToolChain-4.9.4" path="ToolChain" revision="master"/>
+</manifest>	
