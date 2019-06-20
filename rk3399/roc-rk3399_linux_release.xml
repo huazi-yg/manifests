@@ -11,6 +11,10 @@
   	
   	<!-- buildroot -->
   	<project name="weidongshan/roc-rk3399-buildroot" path="buildroot" revision="master"/>
+  
+  	ToolChain-6.3.1
+    <!-- ToolChain -->
+  	<project name="weidongshan/ToolChain-6.3.1" path="ToolChain-6.3.1" revision="master"/>
 
 </manifest>	
 
