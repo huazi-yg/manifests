@@ -42,8 +42,8 @@ $ repo init -u https://dev.tencent.com/u/weidongshan/p/manifests/git -b linux-sd
 ## roc-rk3399开发板
 获取源码
 ```
-$ mkdir -p roc-rk3399
-$ cd roc-rk3399
+$ mkdir -p roc-rk3399-pc
+$ cd roc-rk3399-pc
 $ repo init -u https://dev.tencent.com/u/weidongshan/p/manifests/git -b linux-sdk -m rk3399/roc-rk3399_linux_release.xml --no-repo-verify
 ```
 
