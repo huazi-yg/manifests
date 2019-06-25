@@ -3,10 +3,16 @@
 <manifest>
 	<remote name="dev.tencent" fetch="https://git.dev.tencent.com" review="https://git.dev.tencent.com"/>
 	<default revision="master" remote="dev.tencent" sync-c="true" sync-j="4"/>
-	<!-- uboot -->
-  	<project name="weidongshan/firefly-rk3288-uboot" path="uboot2017.09" revision="release"/>
+	
+  	<!-- uboot -->
+  	<project name="weidongshan/100ask_firefly-rk3288_uboot" path="uboot2017.09" revision="release"/>
+  	
   	<!-- kernel -->
-	<project name="weidongshan/firefly-rk3288-kernel" path="linux-4.4" revision="master"/>  	
+	<project name="weidongshan/100ask_firefly-rk3288_kernel" path="linux-4.4" revision="master"/>  	
+  	
   	<!-- buildroot -->
-  	<project name="weidongshan/firefly-rk3288-buildroot" path="buildroot" revision="master"/>
+  	<project name="weidongshan/100ask_firefly-rk3288_buildroot" path="buildroot" revision="master"/>
+  	 
+  	<!-- ToolChain -->
+  	<project name="weidongshan/ToolChain-6.2.1" path="ToolChain" revision="1028bb94b9aa89616f2fd6fcf77dceea4e8b6566" upstream="master"/>
 </manifest>	
