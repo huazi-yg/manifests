@@ -10,7 +10,7 @@
 	<project name="weidongshan/100ask-am335x_kernel" path="linux-4.9.168" revision="master"/>
   	
   	<!-- buildroot -->
-  	<project name="weidongshan/100ask-am335x_buildroot" path="buildroot2018" revision="master"/>
+  	<project name="weidongshan/100ask-am335x_buildroot" path="buildroot2018.02" revision="master"/>
 	 
   	<!-- ToolChain -->
   	<project name="weidongshan/ToolChain-6.2.1" path="ToolChain" revision="1028bb94b9aa89616f2fd6fcf77dceea4e8b6566" upstream="master"/>
