@@ -10,7 +10,7 @@
 	<project name="weidongshan/100ask_roc-rk3399_kernel" path="linux-4.4" revision="master"/>
   	
   	<!-- buildroot -->
-  	<project name="weidongshan/100ask_roc-rk3399_buildroot" path="buildroot2018.02" revision="master"/>
+  	<project name="weidongshan/100ask_roc-rk3399-pc_buildroot" path="buildroot2018.02" revision="master"/>
   
 
     <!-- ToolChain -->
