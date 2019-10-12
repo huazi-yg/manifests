@@ -24,6 +24,11 @@ REPO_URL = 'https://mirrors.tuna.tsinghua.edu.cn/git/git-repo/'
 https://git.dev.tencent.com/codebug8/repo.git
 ```
 # 初始化仓库 repo init
+## 野火imx6ull开发板(包含mini版和pro版)
+```
+mkdir -p fire-imx6ull_mini && cd fire-imx6ull_mini
+repo init -u https://dev.tencent.com/u/weidongshan/p/manifests/git -b linux-sdk -m imx6ull/fire-imx6ull_linux_release_v1.0.xml --no-repo-verify
+```
 ## 100ask-am335x开发板
 获取源码
 
@@ -44,7 +49,7 @@ $ repo init -u https://dev.tencent.com/u/weidongshan/p/manifests/git -b linux-sd
 ```
 $ mkdir -p roc-rk3399-pc
 $ cd roc-rk3399-pc
-$ repo init -u https://dev.tencent.com/u/weidongshan/p/manifests/git -b linux-sdk -m rk3399/roc-rk3399_linux_release.xml --no-repo-verify
+$ repo init -u https://dev.tencent.com/u/weidongshan/p/manifests/git -b linux-sdk -m rk3399/roc-rk3399-pc_linux_release.xml --no-repo-verify
 ```
 
 ## mini437x开发板
