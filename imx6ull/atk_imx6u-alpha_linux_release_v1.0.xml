@@ -5,9 +5,9 @@
 
 	<default revision="master" remote="dev.tencent" sync-c="true" sync-j="4"/>
 	<!-- uboot -->
-  	<project name="weidongshan/imx6ulx_uboot" path="uboot2017.03" revision="master"/>
+  	<project name="weidongshan/imx6ulx_uboot" path="uboot2017.03" revision="atk"/>
   	<!-- kernel -->
-	<project name="weidongshan/imx6ulx_kernel" path="linux-4.9.88" revision="master"/>
+	<project name="weidongshan/imx6ulx_kernel" path="linux-4.9.88" revision="atk"/>
   	
   	<!-- buildroot -->
   	<project name="weidongshan/imx6ul_buildroot" path="buildroot2019.02" revision="master"/>
