@@ -7,7 +7,7 @@
 	<!-- uboot -->
   	<project name="weidongshan/100ask_roc-rk3399-pc_uboot" path="uboot2019.01" revision="master"/>
   	<!-- kernel -->
-	<project name="weidongshan/100ask_roc-rk3399-pc_kernel" path="linux-4.4.154" revision="master"/>
+	<project name="weidongshan/100ask_roc-rk3399-pc_kernel" path="linux-4.4" revision="master"/>
   	
   	<!-- buildroot -->
   	<project name="weidongshan/100ask_roc-rk3399-pc_buildroot" path="buildroot2018.02" revision="master"/>
