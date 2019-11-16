@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 <manifest>
 	<remote fetch="https://git.dev.tencent.com" name="Coding"/>
-	<remote fetch="https://gitee.com/weidongshan" name="Gitee"/>
+	<remote fetch="https://gitee.com" name="Gitee"/>
     <default  sync-c="true" sync-j="4"/>
 
 	<!-- qemu -->
