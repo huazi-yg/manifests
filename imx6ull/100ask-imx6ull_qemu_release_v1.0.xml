@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 <manifest>
-	<remote name="dev.tencent" fetch="https://git.dev.tencent.com"name="Coding"/>
+	<remote fetch="https://git.dev.tencent.com" name="Coding"/>
 	<remote fetch="https://gitee.com/weidongshan" name="Gitee"/>
     <default  sync-c="true" sync-j="4"/>
 
 	<!-- qemu -->
-	<project  remote="Gitee" name="weidongshan/qemu"  path="qemu"   upstream="master"/> 
+	<project  remote="Gitee" name="weidongshan/qemu"  path="qemu"  revision="master"/> 
   
   	<!-- kernel -->
 	<project  remote="Coding" name="weidongshan/qemu_imx6ull_kernel" path="linux-4.9.88" revision="master"/>
