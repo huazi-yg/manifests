@@ -10,7 +10,7 @@
   
   <project name="TimesysGit/meta-timesys" path="layers/meta-timesys" remote="github" revision="031d6eb674c76b1d9dabdc93cbff4adb10c7cebb"/>
   <project name="bitbake" path="layers/openembedded-core/bitbake" remote="oe" revision="4ce92f43eeac6a4bfd06e8567fa6891614b5b3b0"/>
-  <project name="meta-openembedded" path="layers/meta-openembedded" remote="oe" revision="9b3b907f30b0d5b92d58c7e68289184fda733d3e"/>
+  <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github" revision="9b3b907f30b0d5b92d58c7e68289184fda733d3e"/>
   <project name="meta-qt5/meta-qt5" path="layers/meta-qt5" remote="github" revision="1520d5b2b2beec5e1c3209d3178219e93ef08bca"/> 
  
   <project name="meta-st-stm32mp-addons" path="layers/meta-st/meta-st-stm32mp-addons" revision="db898de3834a8a2a889a6b43993b8faf22de798c"/>
