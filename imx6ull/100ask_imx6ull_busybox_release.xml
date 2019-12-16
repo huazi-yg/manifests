@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<manifest>
+	<remote name="dev.tencent" fetch="https://git.dev.tencent.com" review="https://git.dev.tencent.com"/>
+
+	<default revision="master" remote="dev.tencent" sync-c="true" sync-j="4"/>
+	<!-- uboot -->
+  	<project name="weidongshan/imx6ulx_uboot" path="uboot2017.03" revision="master"/>
+  	<!-- kernel -->
+	<project name="weidongshan/imx6ulx_kernel" path="linux-4.9.88" revision="master"/>
+  	
+  	<!-- buildroot -->
+  	<project name="weidongshan/imx6ul_buildroot" path="buildroot2019.02" revision="master"/>
+	 
+  	<!-- ToolChain -->
+  	<project name="weidongshan/ToolChain-6.2.1" path="ToolChain" revision="1028bb94b9aa89616f2fd6fcf77dceea4e8b6566" upstream="master"/>
+</manifest>	
