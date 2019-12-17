@@ -9,9 +9,12 @@
   	<!-- kernel -->
 	<project name="weidongshan/imx6ulx_kernel" path="linux-4.9.88" revision="master"/>
   	
+  	<!-- busybox -->
+ 	 <project name="weidongshan/imx6ulx_kernel" path="busybox_1.30.0" revision="master"/>
   	<!-- buildroot -->
-  	<project name="weidongshan/imx6ul_buildroot" path="buildroot2019.02" revision="master"/>
-	 
+  	<project name="weidongshan/imx6ul_buildroot" path="buildroot_2019.02" revision="master"/>
+	 <!-- Yocto -->
+ 	 <project name="weidongshan/Yocto_imx-4.9.88-2.9_ga" path="Yocto_rocko" revision="master"/>
   	<!-- ToolChain -->
   	<project name="weidongshan/ToolChain-6.2.1" path="ToolChain" revision="1028bb94b9aa89616f2fd6fcf77dceea4e8b6566" upstream="master"/>
 </manifest>	
