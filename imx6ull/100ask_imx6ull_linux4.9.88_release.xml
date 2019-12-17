@@ -12,6 +12,9 @@
   	 <project name="weidongshan/busybox" path="Busybox_1.30.0" remote="Gitee"  revision="ef800e5441185585986f9b7aaf39010a926fbd5f"/>
   	<!-- buildroot -->
   	<project name="weidongshan/buildroot_2019.02" path="Buildroot_2019.02" revision="master"/>
+    <!-- buildroot dl -->
+  	<project name="weidongshan/Buildroot2019.02_dl" path="Buildroot_2019.02/dl" revision="master"/>
+  	
 	 <!-- Yocto -->
  	 <project name="weidongshan/Yocto_imx-4.9.88-2.9_ga" path="Yocto_rocko" revision="master"/>
   	<!-- ToolChain -->
