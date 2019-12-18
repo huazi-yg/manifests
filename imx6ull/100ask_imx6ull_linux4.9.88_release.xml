@@ -5,9 +5,9 @@
 	<remote fetch="https://gitee.com" name="Gitee"/>
 	<default revision="master" remote="Coding" sync-c="true" sync-j="4"/>
 	<!-- uboot -->
-  	<project name="weidongshan/imx6ulx_uboot" path="Uboot-2017.03" revision="master"/>
+  	<project name="weidongshan/imx-uboot2017.03" path="Uboot-2017.03" revision="master"/>
   	<!-- kernel -->
-	<project name="weidongshan/imx6ulx_kernel" path="Linux-4.9.88" revision="master"/>  	
+	<project name="weidongshan/imx-linux4.9.88" path="Linux-4.9.88" revision="master"/>  	
   	<!-- busybox -->
   	 <project name="weidongshan/busybox" path="Busybox_1.30.0" remote="Gitee"  revision="ef800e5441185585986f9b7aaf39010a926fbd5f"/>
   	<!-- buildroot -->
