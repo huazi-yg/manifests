@@ -13,12 +13,9 @@
   	<!-- buildroot -->
   	<project name="weidongshan/buildroot_2019.02" path="Buildroot_2019.02" revision="master"/>
     <!-- buildroot dl -->
-  	<project name="weidongshan/Buildroot2019.02_dl" path="Buildroot_2019.02/dl" revision="master"/>
-  	
+  	<project name="weidongshan/Buildroot2019.02_dl" path="Buildroot_2019.02/dl" revision="master"/>	
 	 <!-- Yocto -->
  	 <project name="weidongshan/Yocto_imx-4.9.88-2.9_ga" path="Yocto_rocko" revision="master"/>
-  	 <!-- 10ask meta yocto -->
- 	 <project name="weidongshan/meta-100ask-fsl" path="Yocto_rocko/layer/meta-100ask-fsl" revision="master"/>
   	<!-- ToolChain -->
   	<project name="weidongshan/ToolChain-6.2.1" path="ToolChain" revision="1028bb94b9aa89616f2fd6fcf77dceea4e8b6566" upstream="master"/>
   	<!-- DevelopmentEnvConf -->  
