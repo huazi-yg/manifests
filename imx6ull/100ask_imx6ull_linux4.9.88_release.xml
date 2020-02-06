@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 
+
 <manifest>
-	<remote fetch="https://git.dev.tencent.com" name="Coding"/>
+	<remote fetch="https://git.dev.tencent.com" name="Tencent"/>
 	<remote fetch="https://gitee.com" name="Gitee"/>
-	<default revision="master" remote="Coding" sync-c="true" sync-j="4"/>
+	<remote fetch="https://e.coding.net" name="Coding"/>
+	
+	<default revision="master" remote="Tencent" sync-c="true" sync-j="4"/>
+	
 	<!-- uboot -->
-  	<project name="weidongshan/imx-uboot2017.03" path="Uboot-2017.03" revision="master"/>
+  	<!--<project name="weidongshan/imx-uboot2017.03" path="Uboot-2017.03" revision="master"/>-->
+  	<project name="weidongshan/imx-uboot2017.03" path="Uboot-2017.03" remote="Coding" revision="master"/>
+
   	<!-- kernel -->
-	<project name="weidongshan/imx-linux4.9.88" path="Linux-4.9.88" revision="master"/>  	
+	<!--<project name="weidongshan/imx-linux4.9.88" path="Linux-4.9.88" revision="master"/>-->  	
+	<project name="weidongshan/imx-linux4.9.88" path="Linux-4.9.88" remote="Coding"revision="master"/>  
+
+	
   	<!-- busybox -->
   	 <project name="weidongshan/busybox" path="Busybox_1.30.0" remote="Gitee"  revision="ef800e5441185585986f9b7aaf39010a926fbd5f"/>
-  	<!-- buildroot -->
-  	<project name="weidongshan/buildroot_2019.02" path="Buildroot_2019.02" revision="master"/>
+  	
+	<!-- buildroot -->
+  	<!--<project name="weidongshan/buildroot_2019.02" path="Buildroot_2019.02" revision="master"/>-->
+	<project name="weidongshan/buildroot_2019.02" path="Buildroot_2019.02" remote="Coding"  revision="master"/>
+		
     <!-- buildroot dl -->
-  	<project name="weidongshan/Buildroot2019.02_dl" path="Buildroot_2019.02/dl" revision="master"/>	
+  	<!--<project name="weidongshan/Buildroot2019.02_dl" path="Buildroot_2019.02/dl"  revision="master"/>-->	
+  	<project name="weidongshan/Buildroot2019.02_dl" path="Buildroot_2019.02/dl"  remote="Coding"  revision="master"/>
+	
 	 <!-- Yocto -->
  	 <project name="weidongshan/Yocto_imx-4.9.88-2.9_ga" path="Yocto_rocko" revision="master"/>
     
