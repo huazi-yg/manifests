@@ -36,5 +36,5 @@
   	<!-- ToolChain -->
   	<project name="weidongshan/ToolChain-6.2.1" path="ToolChain" revision="1028bb94b9aa89616f2fd6fcf77dceea4e8b6566" upstream="master"/>
   	<!-- DevelopmentEnvConf -->  
-  	<project name="weidongshan/DevelopmentEnvConf" path="DevelopmentEnvConf" revision="master" />    
+  	<project name="weidongshan/DevelopmentEnvConf" remote="Coding" path="DevelopmentEnvConf" revision="master" />    
 </manifest>	
