@@ -8,9 +8,9 @@
 	<default revision="master" remote="Tencent" sync-c="true" sync-j="4"/>
 		
 	<!-- Yocto -->
- 	<project name="weidongshan/Yocto_imx-4.9.88-2.9_ga" remote="Coding" path="./" revision="master"/>   
+ 	<project name="weidongshan/Yocto_imx-4.9.88-2.9_ga" remote="Coding" path="" revision="master"/>   
   	<!-- 10ask meta yocto -->
- 	 <project name="weidongshan/meta-100ask-fsl" remote="Coding" path="./sources/meta-100ask-fsl" revision="master"/>
+ 	 <project name="weidongshan/meta-100ask-fsl" remote="Coding" path="sources/meta-100ask-fsl" revision="master"/>
   	<!-- DevelopmentEnvConf -->  
   	<project name="weidongshan/DevelopmentEnvConf" remote="Coding" path="DevelopmentEnvConf" revision="master" />    
 </manifest>	
