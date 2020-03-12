@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="https://github.com" name="github"/>
   <remote fetch="http://git.openembedded.org" name="oe"/>
-	<remote fetch="https://git.dev.tencent.com" name="Coding"/>
+	<remote fetch="https://e.coding.net" name="Coding"/>
 	<remote fetch="https://gitee.com" name="Gitee"/>
   <remote fetch="https://github.com/STMicroelectronics" name="OpenSTLinux"/>
   
