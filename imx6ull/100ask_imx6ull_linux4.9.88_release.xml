@@ -14,7 +14,7 @@
 
   	<!-- kernel -->
 	<!--<project name="weidongshan/imx-linux4.9.88" path="Linux-4.9.88" revision="master"/>-->  	
-	<project name="weidongshan/imx-linux4.9.88" path="Linux-4.9.88" remote="Coding" revision="0d0e082cee983551d1d458d23ed106a58d3c7127"/>  
+	<project name="weidongshan/imx-linux4.9.88" path="Linux-4.9.88" remote="Coding" revision="master"/>  
 
 	
   	<!-- busybox -->
