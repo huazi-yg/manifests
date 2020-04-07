@@ -22,7 +22,7 @@
   	
 
 	<!-- Noos project -->
-  	<project name="weidongshan/imx6ull_NoosProgramProject" path="imx6ull_NoosProgramProject" remote="Gitee"  revision="master"/>
+  	<project name="weidongshan/imx6ull_NoosProgramProject" path="NoosProgramProject" remote="Gitee"  revision="master"/>
 
 
 	<!-- buildroot -->
