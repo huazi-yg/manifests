@@ -20,6 +20,11 @@
   	<!-- busybox -->
   	 <project name="weidongshan/busybox" path="Busybox_1.30.0" remote="Gitee"  revision="ef800e5441185585986f9b7aaf39010a926fbd5f"/>
   	
+
+	<!-- Noos project -->
+  	<project name="weidongshan/imx6ull_NoosProgramProject" path="imx6ull_NoosProgramProject" remote="Gitee"  revision="master"/>
+
+
 	<!-- buildroot -->
   	<!--<project name="weidongshan/buildroot_2019.02" path="Buildroot_2019.02" revision="master"/>-->
 	<project name="weidongshan/buildroot_2019.02" path="Buildroot_2019.02" remote="Coding"  revision="master"/>
