@@ -6,7 +6,7 @@
 	<remote fetch="https://gitee.com" name="Gitee"/>
 	<remote fetch="https://e.coding.net" name="Coding"/>
 	
-	<default revision="master" remote="Tencent" sync-c="true" sync-j="4"/>
+	<default revision="master" remote="Coding" sync-c="true" sync-j="4"/>
 	
 	<!-- uboot -->
   	<!--<project name="weidongshan/imx-uboot2017.03" path="Uboot-2017.03" revision="master"/>-->
