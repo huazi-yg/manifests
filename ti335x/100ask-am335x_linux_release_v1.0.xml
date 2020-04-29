@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 
 <manifest>
-	<remote name="dev.tencent" fetch="https://git.dev.tencent.com" review="https://git.dev.tencent.com"/>
+	<remote fetch="https://git.dev.tencent.com" name="Tencent"/>
+	<remote fetch="https://gitee.com" name="Gitee"/>
+	<remote fetch="https://e.coding.net" name="Coding"/>
+	
+	<default revision="master" remote="Coding" sync-c="true" sync-j="4"/>
 
-	<default revision="master" remote="dev.tencent" sync-c="true" sync-j="4"/>
 	<!-- uboot -->
   	<project name="weidongshan/100ask-am335x_uboot" path="uboot2016.06" revision="master"/>
   	<!-- kernel -->
