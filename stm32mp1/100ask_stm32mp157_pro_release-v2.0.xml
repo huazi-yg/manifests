@@ -1,0 +1,36 @@
+?xml version="1.0" encoding="UTF-8"?>  
+
+
+<manifest>
+	<remote fetch="https://git.dev.tencent.com" name="Tencent"/>
+	<remote fetch="https://gitee.com" name="Gitee"/>
+	<remote fetch="https://e.coding.net" name="Coding"/>
+	
+	<default revision="master" remote="Coding" sync-c="true" sync-j="4"/>
+
+	<!-- TFA -->
+  	<project name="lichang70/stm32mp15xc-tf-a" path="Tfa" remote="Gitee" revision="100ask-stm32mp"/>
+
+	<!-- uboot -->
+  	<project name="lichang70/stm32mp15xc-uboot" path="Uboot-2020.02" remote="Gitee" revision="100ask-stm32mp"/>
+
+  	<!-- kernel -->
+	
+	<project name="weidongshan/stm32mp15xc-kernel" path="Linux-5.4" remote="Gitee" revision="master"/>  
+
+	
+  	<!-- busybox -->
+  	 <project name="weidongshan/busybox" path="Busybox_1.30.0" remote="Gitee"  revision="ef800e5441185585986f9b7aaf39010a926fbd5f"/>
+  	
+
+	<!-- buildroot --> 
+	<project name="weidongshan/buildroot_2020.02.x" path="Buildroot_2020.02.x" remote="Coding"  revision="Gitee"/>
+		
+    <!-- buildroot dl -->
+  	<project name="weidongshan/buildroot_2020.02x_dl" path="Buildroot_2020.02.x/dl"  remote="Coding"  revision="master"/>
+	
+	 <!-- Yocto -->
+ 	<!-- <project name="weidongshan/Yocto_imx-4.9.88-2.9_ga" path="Yocto_rocko" remote="Coding" revision="master"/> -->
+    
+   
+</manifest>	
