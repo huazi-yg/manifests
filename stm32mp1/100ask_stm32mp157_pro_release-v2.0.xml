@@ -24,7 +24,7 @@
   	
 
 	<!-- buildroot --> 
-	<project name="weidongshan/buildroot_2020.02.x" path="Buildroot_2020.02.x" remote="Coding"  revision="Gitee"/>
+	<project name="weidongshan/buildroot_2020.02.x" path="Buildroot_2020.02.x" remote="Gitee"  revision="master"/>
 		
     <!-- buildroot dl -->
   	<project name="weidongshan/buildroot_2020.02x_dl" path="Buildroot_2020.02.x/dl"  remote="Coding"  revision="master"/>
