@@ -19,7 +19,7 @@
 	<project name="weidongshan/stm32mp15xc-kernel" path="Linux-5.4" remote="Gitee" revision="master"/>  
   
     <!-- ToolChain-8.2  -->
-  	<project name="weidongshan/ToolChain-8.2" path="ToolChain"  remote="Coding"  revision="master"/>
+  	<project name="weidongshan/ToolChain-8.2/ToolChain-8.2" path="ToolChain"  remote="Coding"  revision="master"/>
 	
 	
   	<!-- busybox -->
