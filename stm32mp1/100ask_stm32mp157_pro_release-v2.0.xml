@@ -37,5 +37,8 @@
 
     <!-- YoctoZeus  -->
     <project name="ST-Yocto/ST-Yocto" path="Yocto_Zeus" remote="weidongshan" revision="Zeus"/> 
+    
+    <!-- DevelopmentEnvConf -->  
+  	<project name="weidongshan/DevelopmentEnvConf" remote="Coding" path="DevelopmentEnvConf" revision="master" />    
  
 </manifest>	
