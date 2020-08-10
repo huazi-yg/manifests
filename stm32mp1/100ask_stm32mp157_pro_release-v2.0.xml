@@ -16,7 +16,6 @@
   	<project name="weidongshan/stm32mp15xc-uboot" path="Uboot-2020.02" remote="Gitee" revision="100ask-stm32mp"/>
 
   	<!-- kernel -->
-	
 	<project name="weidongshan/stm32mp15xc-kernel" path="Linux-5.4" remote="Gitee" revision="master"/>  
   
     <!-- ToolChain-8.2  -->
@@ -37,6 +36,9 @@
 
     <!-- YoctoZeus  -->
     <project name="ST-Yocto/ST-Yocto" path="Yocto_Zeus" remote="weidongshan" revision="Zeus"/> 
+
+  	<!-- stm32mp157-m4 -->
+	<project name="weidongshan/stm32mp157-m4" path="STM32MP157-M4" remote="Gitee" revision="master"/>      
     
     <!-- DevelopmentEnvConf -->  
   	<project name="weidongshan/DevelopmentEnvConf" remote="Coding" path="DevelopmentEnvConf" revision="master" />    
