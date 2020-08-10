@@ -32,7 +32,7 @@
 	
     <!-- YoctoDunfell  -->
     <project name="ST-Yocto/ST-Yocto" path="Yocto_Dunfell" remote="weidongshan" revision="Dunfell"/> 
-    <project name="weidongshan/meta-100ask-st" path="Yocto_Dunfell/layers" remote="Gitee" revision="dunfell"/> 
+    <project name="weidongshan/meta-100ask-st" path="Yocto_Dunfell/layers/meta-100ask-st" remote="Gitee" revision="dunfell"/> 
 
     <!-- YoctoZeus  -->
     <project name="ST-Yocto/ST-Yocto" path="Yocto_Zeus" remote="weidongshan" revision="Zeus"/> 
