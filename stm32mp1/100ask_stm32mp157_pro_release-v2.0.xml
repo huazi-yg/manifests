@@ -33,7 +33,8 @@
     <!-- YoctoDunfell  -->
     <project name="ST-Yocto/ST-Yocto" path="Yocto_Dunfell" remote="weidongshan" revision="Dunfell"/> 
     <project name="weidongshan/meta-100ask-st" path="Yocto_Dunfell/layers/meta-100ask-st" remote="Gitee" revision="dunfell"/> 
-
+    <project name="weidongshan/meta-openembedded" path="Yocto_Dunfell/layers/meta-openembedded" remote="Gitee" revision="b5f510e48080b6dc710ff4800feb90ef679c5456"/>
+    <project name="weidongshan/openembedded-core" path="Yocto_Dunfell/layers/openembedded-core" remote="Gitee" revision="1795f30d8ab73d35710ca99064c51190dc84853e"/>
     <!-- YoctoZeus  -->
     <project name="ST-Yocto/ST-Yocto" path="Yocto_Zeus" remote="weidongshan" revision="Zeus"/> 
 
