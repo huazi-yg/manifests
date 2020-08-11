@@ -18,9 +18,10 @@
   	<!-- kernel -->
 	<project name="weidongshan/stm32mp15xc-kernel" path="Linux-5.4" remote="Gitee" revision="master"/>  
   
-    <!-- ToolChain-8.2  -->
+    <!-- ToolChain-buildroot2020  -->
   	<project name="ToolChain-8.x/ToolChain-8.x" path="ToolChain"  remote="weidongshan"  revision="master"/>
-	
+    <!-- ToolChain-YoctoDunfell  -->
+    <project name="openstlinux_eglfs-linux-gnueabi/openstlinux_eglfs-linux-gnueabi" path="ToolChain"  remote="weidongshan"  revision="master"/>	
 	
   	<!-- busybox -->
   	 <project name="weidongshan/busybox" path="Busybox_1.30.0" remote="Gitee"  revision="ef800e5441185585986f9b7aaf39010a926fbd5f"/>
@@ -32,6 +33,8 @@
 	
     <!-- YoctoDunfell  -->
     <project name="ST-Yocto/ST-Yocto" path="Yocto_Dunfell" remote="weidongshan" revision="Dunfell"/> 
+
+    <project name="weidongshan/meta-qt5" path="layers/meta-qt5" remote="Gitee" revision="ac7514e2bc295c97faa86d24e8823829257adbb8"/>
     <project name="weidongshan/meta-100ask-st" path="Yocto_Dunfell/layers/meta-100ask-st" remote="Gitee" revision="dunfell"/> 
     <project name="weidongshan/meta-openembedded" path="Yocto_Dunfell/layers/meta-openembedded" remote="Gitee" revision="b5f510e48080b6dc710ff4800feb90ef679c5456"/>
     <project name="weidongshan/openembedded-core" path="Yocto_Dunfell/layers/openembedded-core" remote="Gitee" revision="1795f30d8ab73d35710ca99064c51190dc84853e"/>
