@@ -20,8 +20,10 @@
   
     <!-- ToolChain-buildroot2020  -->
   	<project name="ToolChain-8.x/ToolChain-8.x" path="ToolChain"  remote="weidongshan"  revision="master"/>
+    
     <!-- ToolChain-YoctoDunfell  -->
-    <project name="openstlinux_eglfs-linux-gnueabi/openstlinux_eglfs-linux-gnueabi" path="ToolChain"  remote="weidongshan"  revision="master"/>	
+    <project name="openstlinux_eglfs-linux-gnueabi/openstlinux_eglfs-linux-gnueabi" path="ToolChain/openstlinux_eglfs-linux-gnueabi"  remote="weidongshan"  revision="master"/>
+  
 	
   	<!-- busybox -->
   	 <project name="weidongshan/busybox" path="Busybox_1.30.0" remote="Gitee"  revision="ef800e5441185585986f9b7aaf39010a926fbd5f"/>
