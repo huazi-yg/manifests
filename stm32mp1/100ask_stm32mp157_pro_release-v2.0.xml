@@ -10,10 +10,10 @@
 	<default revision="master" remote="Coding" sync-c="true" sync-j="4"/>
 
 	<!-- TFA -->
-  	<project name="weidongshan/stm32mp15xc-tf-a" path="Tfa-v2.2" remote="Gitee" revision="100ask-stm32mp"/>
+  	<project name="weidongshan/stm32mp15xc-tf-a" path="Tfa-v2.2" remote="Gitee" revision="stm32mp-ya15xc"/>
 
 	<!-- uboot -->
-  	<project name="weidongshan/stm32mp15xc-uboot" path="Uboot-2020.02" remote="Gitee" revision="100ask-stm32mp"/>
+  	<project name="weidongshan/stm32mp15xc-uboot" path="Uboot-2020.02" remote="Gitee" revision="stm32mp-ya15xc"/>
 
   	<!-- kernel -->
 	<project name="weidongshan/stm32mp15xc-kernel" path="Linux-5.4" remote="Gitee" revision="master"/>  
@@ -34,7 +34,7 @@
   	<project name="ST-Buildoot-dl/ST-Buildoot-dl" path="Buildroot_2020.02.x/dl"  remote="weidongshan"  revision="buildroot-2020.02.4"/>
 	
     <!-- YoctoDunfell  -->
-    <project name="ST-Yocto/ST-Yocto" path="Yocto_Dunfell" remote="weidongshan" revision="Dunfell"/> 
+    <!-- <project name="ST-Yocto/ST-Yocto" path="Yocto_Dunfell" remote="weidongshan" revision="Dunfell"/> -->
 
     <project name="weidongshan/meta-qt5" path="layers/meta-qt5" remote="Gitee" revision="ac7514e2bc295c97faa86d24e8823829257adbb8"/>
     <project name="weidongshan/meta-100ask-st" path="Yocto_Dunfell/layers/meta-100ask-st" remote="Gitee" revision="dunfell"/> 
