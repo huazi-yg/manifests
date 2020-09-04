@@ -8,15 +8,16 @@
 	
 	<default revision="master" remote="Coding" sync-c="true" sync-j="4"/>
 	
-	<!-- uboot -->
-  	<!--<project name="weidongshan/imx-uboot2017.03" path="Uboot-2017.03" revision="master"/>-->
+	<!-- uboot 2017 -->
   	<project name="weidongshan/imx-uboot2017.03" path="Uboot-2017.03" remote="Coding" revision="master"/>
+
+	<!-- uboot 2018.03 -->
+  	<project name="weidongshan/uboot-imx_2018.03" path="Uboot-2018.03" remote="Coding" revision="master"/>
 
   	<!-- kernel -->
 	<!--<project name="weidongshan/imx-linux4.9.88" path="Linux-4.9.88" revision="master"/>-->  	
 	<project name="weidongshan/imx-linux4.9.88" path="Linux-4.9.88" remote="Coding" revision="master"/>  
 
-	
   	<!-- busybox -->
   	 <project name="weidongshan/busybox" path="Busybox_1.30.0" remote="Gitee"  revision="ef800e5441185585986f9b7aaf39010a926fbd5f"/>
   	
@@ -25,16 +26,22 @@
     <project name="weidongshan/imx6ull_NoosProgramProject" path="NoosProgramProject" remote="Gitee"  revision="master"/> 
 
 
-	<!-- buildroot -->
+	<!-- buildroot 2019 -->
   	<!--<project name="weidongshan/buildroot_2019.02" path="Buildroot_2019.02" revision="master"/>-->
 	<project name="weidongshan/buildroot_2019.02" path="Buildroot_2019.02" remote="Coding"  revision="master"/>
 		
-    <!-- buildroot dl -->
+    <!-- buildroot 2019  dl -->
   	<!--<project name="weidongshan/Buildroot2019.02_dl" path="Buildroot_2019.02/dl"  revision="master"/>-->	
   	<project name="weidongshan/Buildroot2019.02_dl" path="Buildroot_2019.02/dl"  remote="Coding"  revision="master"/>
 	
-	 <!-- Yocto -->
- 	 <project name="weidongshan/Yocto_imx-4.9.88-2.9_ga" path="Yocto_rocko" remote="Coding" revision="master"/>
+	<!-- buildroot 2020  -->
+	<project name="weidongshan/buildroot_2020.02.x" path="Buildroot_2020.02.x" remote="Gitee"  revision="master"/>
+		
+    <!-- buildroot 2020 dl -->
+  	<project name="weidongshan/buildroot_2020.02x_dl" path="Buildroot_2020.02.x/dl"  remote="Coding"  revision="master"/>
+
+	<!-- Yocto -->
+ 	<project name="weidongshan/Yocto_imx-4.9.88-2.9_ga" path="Yocto_rocko" remote="Coding" revision="master"/>
     
   	<!-- 10ask meta yocto -->
  	 <project name="weidongshan/meta-100ask-fsl" path="Yocto_rocko/sources/meta-100ask-fsl" remote="Coding"  revision="master"/>
