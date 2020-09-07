@@ -29,12 +29,7 @@
 		
     <!-- buildroot 2020 dl -->
   	<project name="weidongshan/buildroot_2020.02x_dl" path="Buildroot_2020.02.x/dl"  remote="Coding"  revision="master"/>
-
-	<!-- Yocto -->
- 	<project name="weidongshan/Yocto_imx-4.9.88-2.9_ga" path="Yocto_rocko" remote="Coding" revision="master"/>
-    
-  	<!-- 10ask meta yocto -->
- 	 <project name="weidongshan/meta-100ask-fsl" path="Yocto_rocko/sources/meta-100ask-fsl" remote="Coding"  revision="master"/>
+      
   	<!-- ToolChain -->
   	<project name="weidongshan/ToolChain-6.2.1" path="ToolChain" revision="1028bb94b9aa89616f2fd6fcf77dceea4e8b6566"  remote="Coding" upstream="master"/>
   	<!-- DevelopmentEnvConf -->  
