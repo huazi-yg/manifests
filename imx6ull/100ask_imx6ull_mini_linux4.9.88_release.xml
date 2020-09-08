@@ -2,10 +2,10 @@
 
 
 <manifest>
-	<remote fetch="https://git.dev.tencent.com" name="Tencent"/>
 	<remote fetch="https://gitee.com" name="Gitee"/>
 	<remote fetch="https://e.coding.net" name="Coding"/>
-	
+	<remote fetch="https://e.coding.net/weidongshan/" name="weidongshan"/>
+
 	<default revision="master" remote="Coding" sync-c="true" sync-j="4"/>
 	
 	<!-- uboot 2017 -->
@@ -24,12 +24,10 @@
 	<!-- Noos project -->
     <project name="weidongshan/imx6ull_NoosProgramProject" path="NoosProgramProject" remote="Gitee"  revision="master"/> 
 
-	<!-- buildroot 2020  -->
-	<project name="weidongshan/buildroot_2020.02.x" path="Buildroot_2020.02.x" remote="Gitee"  revision="master"/>
-		
-    <!-- buildroot 2020 dl -->
-  	<project name="weidongshan/buildroot_2020.02x_dl" path="Buildroot_2020.02.x/dl"  remote="Coding"  revision="master"/>
-      
+    <!-- buildroot 2020.02.x--> 
+    <project name="buildroot/buildroot" path="Buildroot_2020.02.x" remote="weidongshan"  revision="master"/>	
+    <project name="ST-Buildoot-dl/ST-Buildoot-dl" path="Buildroot_2020.02.x/dl"  remote="weidongshan"  revision="master"/>
+
   	<!-- ToolChain -->
   	<project name="weidongshan/ToolChain-6.2.1" path="ToolChain" revision="1028bb94b9aa89616f2fd6fcf77dceea4e8b6566"  remote="Coding" upstream="master"/>
   	<!-- DevelopmentEnvConf -->  
