@@ -30,7 +30,7 @@
   	
 
 	<!-- buildroot 2020.02.x--> 
-	<project name="weidongshan/Buildroot" path="Buildroot_2020.02.x" remote="Gitee"  revision="b0a4559fe452bc5586cab39bc984f9a81337219d"/>	
+	<project name="weidongshan/Buildroot" path="Buildroot_2020.02.x" remote="Gitee"  revision="2f9442520bb8883877a125b6f5b520eb33dfd95f"/>	
   	<project name="ST-Buildoot-dl/ST-Buildoot-dl" path="Buildroot_2020.02.x/dl"  remote="weidongshan"  revision="master"/>
 	
     <!-- YoctoDunfell  -->
