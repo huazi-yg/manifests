@@ -10,7 +10,7 @@
 	<default revision="master" remote="Coding" sync-c="true" sync-j="4"/>
 
     <!-- ToolChain -->
-  	<project name="weidongshan/ToolChain-6.2.1" path="ToolChain" revision="1028bb94b9aa89616f2fd6fcf77dceea4e8b6566"  remote="Coding" upstream="master"/>
+  	<project name="weidongshan/ToolChain-6.2.1" path="ToolChain/ToolChain-6.2.1" revision="1028bb94b9aa89616f2fd6fcf77dceea4e8b6566"  remote="Coding" upstream="master"/>
       
     <!-- ToolChain-buildroot2020  -->
   	<project name="ToolChain-7.x/ToolChain-7.x" path="ToolChain"  remote="weidongshan"  revision="master"/>
