@@ -11,7 +11,7 @@
         <project name="weidongshan/imx-uboot2017.03" path="Uboot-2017.03" remote="Coding" revision="imx6ull_mini"/>
 
         <!-- uboot 2018.03 -->
-        <!--<project name="weidongshan/uboot-imx_2018.03" path="Uboot-2018.03" remote="Coding" revision="master"/> -->
+        <project name="weidongshan/uboot-imx_2018.03" path="Uboot-2018.03" remote="Coding" revision="master"/> 
 
         <!-- kernel -->
         <!--<project name="weidongshan/imx-linux4.9.88" path="Linux-4.9.88" revision="master"/>-->
