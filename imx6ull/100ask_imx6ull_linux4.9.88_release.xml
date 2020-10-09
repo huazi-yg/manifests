@@ -5,9 +5,16 @@
 	<remote fetch="https://git.dev.tencent.com" name="Tencent"/>
 	<remote fetch="https://gitee.com" name="Gitee"/>
 	<remote fetch="https://e.coding.net" name="Coding"/>
+    <remote fetch="https://e.coding.net/weidongshan/" name="weidongshan"/>
 	
 	<default revision="master" remote="Coding" sync-c="true" sync-j="4"/>
-	
+
+    <!-- ToolChain -->
+  	<project name="weidongshan/ToolChain-6.2.1" path="ToolChain" revision="1028bb94b9aa89616f2fd6fcf77dceea4e8b6566"  remote="Coding" upstream="master"/>
+      
+    <!-- ToolChain-buildroot2020  -->
+  	<project name="ToolChain-7.x/ToolChain-7.x" path="ToolChain"  remote="weidongshan"  revision="master"/>
+
 	<!-- uboot 2017 -->
   	<project name="weidongshan/imx-uboot2017.03" path="Uboot-2017.03" remote="Coding" revision="master"/>
 
@@ -28,11 +35,11 @@
 
 	<!-- buildroot 2019 -->
   	<!--<project name="weidongshan/buildroot_2019.02" path="Buildroot_2019.02" revision="master"/>-->
-	<project name="weidongshan/buildroot_2019.02" path="Buildroot_2019.02" remote="Coding"  revision="master"/>
+	<!--<project name="weidongshan/buildroot_2019.02" path="Buildroot_2019.02" remote="Coding"  revision="master"/>-->
 		
     <!-- buildroot 2019  dl -->
   	<!--<project name="weidongshan/Buildroot2019.02_dl" path="Buildroot_2019.02/dl"  revision="master"/>-->	
-  	<project name="weidongshan/Buildroot2019.02_dl" path="Buildroot_2019.02/dl"  remote="Coding"  revision="master"/>
+  	<!--<project name="weidongshan/Buildroot2019.02_dl" path="Buildroot_2019.02/dl"  remote="Coding"  revision="master"/>-->
 	
 	<!-- buildroot 2020  -->
 	<project name="weidongshan/buildroot_2020.02.x" path="Buildroot_2020.02.x" remote="Gitee"  revision="master"/>
@@ -45,8 +52,7 @@
     
   	<!-- 10ask meta yocto -->
  	 <project name="weidongshan/meta-100ask-fsl" path="Yocto_rocko/sources/meta-100ask-fsl" remote="Coding"  revision="master"/>
-  	<!-- ToolChain -->
-  	<project name="weidongshan/ToolChain-6.2.1" path="ToolChain" revision="1028bb94b9aa89616f2fd6fcf77dceea4e8b6566"  remote="Coding" upstream="master"/>
+
   	<!-- DevelopmentEnvConf -->  
   	<project name="weidongshan/DevelopmentEnvConf" remote="Coding" path="DevelopmentEnvConf" revision="master" />    
 </manifest>	
