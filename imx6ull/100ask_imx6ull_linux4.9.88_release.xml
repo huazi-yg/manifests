@@ -8,7 +8,7 @@
         <default revision="master" remote="Coding" sync-c="true" sync-j="4"/>
 
         <!-- uboot 2017 -->
-        <project name="weidongshan/imx-uboot2017.03" path="Uboot-2017.03" remote="Coding" revision="imx6ull_mini"/>
+        <project name="weidongshan/imx-uboot2017.03" path="Uboot-2017.03" remote="Coding" revision="master"/>
 
         <!-- uboot 2018.03 -->
         <project name="weidongshan/uboot-imx_2018.03" path="Uboot-2018.03" remote="Coding" revision="master"/> 
