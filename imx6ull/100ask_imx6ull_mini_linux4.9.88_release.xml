@@ -28,8 +28,12 @@
     <project name="buildroot/buildroot" path="Buildroot_2020.02.x" remote="weidongshan"  revision="master"/>	
     <project name="ST-Buildoot-dl/ST-Buildoot-dl" path="Buildroot_2020.02.x/dl"  remote="weidongshan"  revision="imx6ull"/>
 
-  	<!-- ToolChain -->
-  	<project name="weidongshan/ToolChain-6.2.1" path="ToolChain" revision="1028bb94b9aa89616f2fd6fcf77dceea4e8b6566"  remote="Coding" upstream="master"/>
+    <!-- ToolChain -->
+    <project name="weidongshan/ToolChain-6.2.1" path="ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf" revision="master"  remote="Coding" />
+		
+    <!-- ToolChain-buildroot2020  -->
+    <project name="ToolChain-7.x/ToolChain-7.x" path="ToolChain"  remote="weidongshan"  revision="master"/>
+  	       
   	<!-- DevelopmentEnvConf -->  
   	<project name="weidongshan/DevelopmentEnvConf" remote="Coding" path="DevelopmentEnvConf" revision="master" />    
 </manifest>	
