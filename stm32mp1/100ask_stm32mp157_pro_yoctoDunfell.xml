@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+
+<manifest>
+	<remote fetch="https://gitee.com" name="Gitee"/>
+	<remote fetch="https://e.coding.net" name="Coding"/>
+    <remote fetch="https://e.coding.net/weidongshan/" name="weidongshan"/>
+  
+	
+	<default revision="master" remote="Coding" sync-c="true" sync-j="4"/>
+
+    
+    <!-- ToolChain-YoctoDunfell  -->
+    <project name="openstlinux_eglfs-linux-gnueabi/openstlinux_eglfs-linux-gnueabi" path="ToolChain/openstlinux_eglfs-linux-gnueabi"  remote="weidongshan"  revision="master"/>
+  
+	
+    <!-- YoctoDunfell  -->
+    <!-- <project name="ST-Yocto/ST-Yocto" path="Yocto_Dunfell" remote="weidongshan" revision="Dunfell"/> -->
+    <project name="weidongshan/meta-timesys" path="Yocto_Dunfell/layers/meta-timesys" remote="Gitee" revision="83d534e4eaf54685e956b8a77b61a40b06ad42ec"/>
+    <project name="weidongshan/meta-st-openstlinux" path="Yocto_Dunfell/layers/meta-st/meta-st-openstlinux" remote="Gitee" revision="5465ed3781355776cb46d2cc45884b1ccc1011cd"/>  
+    <project name="weidongshan/meta-st-stm32mp" path="Yocto_Dunfell/layers/meta-st/meta-st-stm32mp"  remote="Gitee" revision="7a1ab80ccb655e9cd28c9ea8a4a83fca48c48b11"/> 
+    <project name="weidongshan/meta-st-stm32mp-addons" path="Yocto_Dunfell/layers/meta-st/meta-st-stm32mp-addons"  remote="Gitee" revision="2b992cde26a4df9da34d8baee8491b3d9bc8f109"/>
+    <project name="weidongshan/bitbake" path="Yocto_Dunfell/layers/openembedded-core/bitbake" remote="Gitee" revision="4618da2094189e4d814b7d65672cb65c86c0626a"/>  
+    <project name="weidongshan/meta-qt5" path="Yocto_Dunfell/layers/meta-qt5" remote="Gitee" revision="ac7514e2bc295c97faa86d24e8823829257adbb8"/>
+    <project name="weidongshan/meta-100ask-st" path="Yocto_Dunfell/layers/meta-100ask-st" remote="Gitee" revision="dunfell"/> 
+    <project name="weidongshan/meta-openembedded" path="Yocto_Dunfell/layers/meta-openembedded" remote="Gitee" revision="b5f510e48080b6dc710ff4800feb90ef679c5456"/>
+    <project name="weidongshan/openembedded-core" path="Yocto_Dunfell/layers/openembedded-core" remote="Gitee" revision="1795f30d8ab73d35710ca99064c51190dc84853e"/>
+    
+    <!-- YoctoZeus  -->
+    <!--<project name="ST-Yocto/ST-Yocto" path="Yocto_Zeus" remote="weidongshan" revision="Zeus"/> -->
+
+    
+    <!-- DevelopmentEnvConf -->  
+  	<project name="weidongshan/DevelopmentEnvConf" remote="Coding" path="DevelopmentEnvConf" revision="master" />    
+ 
+</manifest>	
