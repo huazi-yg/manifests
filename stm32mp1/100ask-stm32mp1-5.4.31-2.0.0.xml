@@ -23,7 +23,7 @@
     <project name="weidongshan/bitbake" path="Yocto_Dunfell/layers/openembedded-core/bitbake" remote="Gitee" revision="4618da2094189e4d814b7d65672cb65c86c0626a"/>  
     <project name="weidongshan/meta-qt5" path="Yocto_Dunfell/layers/meta-qt5" remote="Gitee" revision="ac7514e2bc295c97faa86d24e8823829257adbb8"/>
     <!--<project name="weidongshan/meta-100ask-st" path="Yocto_Dunfell/layers/meta-100ask-st" remote="Gitee" revision="dunfell"/>  -->
-     <project name="100askTeam/meta-100ask-st" path="Yocto_Dunfell/layers/meta-100ask-st" remote="github" revision="085fa4f047c369ab2d3da6d78d9e8c1902f0ae0c"/> 
+     <project name="100askTeam/meta-100ask-st" path="Yocto_Dunfell/layers/meta-100ask-st" remote="github" revision="e48db89041c31e7a79f02de77d6e94ac634d9a40"/> 
     <project name="weidongshan/meta-openembedded" path="Yocto_Dunfell/layers/meta-openembedded" remote="Gitee" revision="b5f510e48080b6dc710ff4800feb90ef679c5456"/>
     <project name="weidongshan/openembedded-core" path="Yocto_Dunfell/layers/openembedded-core" remote="Gitee" revision="1795f30d8ab73d35710ca99064c51190dc84853e"/>
 
