@@ -44,7 +44,7 @@ book@100ask:~/100ask_imx6ull_mini-sdk$  ../repo/repo init  -u  https://gitee.com
 book@100ask:~/100ask_imx6ull_mini-sdk$  ../repo/repo sync -j4
 ```
 
-## 100ask_stm32mp157_pro开发板
+## 100ask_stm32mp157_pro开发板buildroot系统
 
 ```
 book@100ask:~$ git clone https://e.coding.net/codebug8/repo.git
@@ -53,6 +53,17 @@ book@100ask:~/100ask_stm32mp157_pro-sdk$  ../repo/repo init -u  https://gitee.co
 book@100ask:~/100ask_stm32mp157_pro-sdk$  ../repo/repo sync -j4
 
 ```
+## 100ask_stm32mp157_pro开发板yocto系统
+> 注意 需要下载资料光盘里的原件包，否则编译时会出现卡死问题。
+
+```
+book@100ask:~$ git clone https://e.coding.net/codebug8/repo.git
+book@100ask:~$ mkdir -p 100ask_stm32mp157_pro-yocto && cd 100ask_stm32mp157_pro-yocto
+book@100ask:~/100ask_stm32mp157_pro-yocto$  ../repo/repo init -u  https://gitee.com/weidongshan/manifests.git  -b linux-sdk  -m stm32mp1/100ask-stm32mp1-5.4.31-2.0.0.xml    --no-repo-verify
+book@100ask:~/100ask_stm32mp157_pro-sdk$  ../repo/repo sync -j4
+```
+
+
 
 # 同步代码repo sync
 
