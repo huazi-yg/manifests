@@ -65,6 +65,16 @@ book@100ask:~/100ask_stm32mp157_pro-sdk$  ../repo/repo sync -j4
 
 
 
+## 100ask_imx6ull开发板zeus 版本yocto系统
+> 注意 需要下载资料光盘里的原件包，否则编译时会出现卡死问题。
+
+```
+book@100ask:~$ git clone https://e.coding.net/codebug8/repo.git
+book@100ask:~$ mkdir -p 100ask_imx6ull-yocto && cd 100ask_imx6ull-yocto
+book@100ask:~/100ask_imx6ull-yocto$  ../repo/repo init -u  https://gitee.com/weidongshan/manifests.git  -b linux-sdk  -m imx6ull/100ask_imx-5.4.47-2.2.0.xml  --no-repo-verify
+book@100ask:~/100ask_imx6ull-sdk$  ../repo/repo sync -j4
+```
+
 # 同步代码repo sync
 
 ```
