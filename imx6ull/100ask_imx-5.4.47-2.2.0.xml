@@ -41,7 +41,7 @@
 
   <!-- User define -->
   <project name="poky" path="sources/poky" remote="yocto" revision="5408e48d374fc741fa46b57ddfd8a537843bda6f"/>
-    <project name="weidongshan/meta-imx" path="sources/meta-imx" remote="Gitee" revision="zeus-5.4.47-2.2.0" />
+<project name="weidongshan/meta-imx" path="sources/meta-imx" remote="Gitee" revision="780b023a4c77ac9c0011d858ad377f4a9593bfea" >
     <linkfile dest="imx-setup-release.sh" src="tools/imx-setup-release.sh"/>
     <linkfile dest="README-IMXBSP" src="README"/>
   </project>
