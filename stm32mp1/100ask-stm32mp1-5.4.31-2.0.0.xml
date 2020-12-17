@@ -23,12 +23,14 @@
     <project name="weidongshan/meta-st-stm32mp-addons" path="Yocto_Dunfell/layers/meta-st/meta-st-stm32mp-addons"  remote="Gitee" revision="2b992cde26a4df9da34d8baee8491b3d9bc8f109"/>
     <project name="weidongshan/meta-st-scripts" path="Yocto_Dunfell/layers/meta-st/scripts" remote="Gitee" revision="b600010fa49e2bd4d3f10b732405200de974d3e2"/>
     <project name="weidongshan/bitbake" path="Yocto_Dunfell/layers/openembedded-core/bitbake" remote="Gitee" revision="4618da2094189e4d814b7d65672cb65c86c0626a"/>  
-    <!-- <project name="weidongshan/meta-qt5" path="Yocto_Dunfell/layers/meta-qt5" remote="Gitee" revision="ac7514e2bc295c97faa86d24e8823829257adbb8"/> -->
-    <project name="weidongshan/meta-qt5" path="Yocto_Dunfell/layers/meta-qt5" remote="Gitee" revision="0e7015f7a86dda995a39662edbb5c26da647c496"/>
-    <!--<project name="weidongshan/meta-100ask-st" path="Yocto_Dunfell/layers/meta-100ask-st" remote="Gitee" revision="dunfell"/>  -->     
+    <project name="weidongshan/meta-qt5" path="Yocto_Dunfell/layers/meta-qt5" remote="Gitee" revision="0e7015f7a86dda995a39662edbb5c26da647c496"/>    
     <project name="weidongshan/meta-openembedded" path="Yocto_Dunfell/layers/meta-openembedded" remote="Gitee" revision="b5f510e48080b6dc710ff4800feb90ef679c5456"/>
     <project name="weidongshan/openembedded-core" path="Yocto_Dunfell/layers/openembedded-core" remote="Gitee" revision="1795f30d8ab73d35710ca99064c51190dc84853e"/>
-    <project name="100askTeam/meta-100ask-st" path="Yocto_Dunfell/layers/meta-100ask-st" remote="github" revision="e48db89041c31e7a79f02de77d6e94ac634d9a40"/> 
+
+    <!-- User define meta -->
+    <project name="100askTeam/meta-100ask-st" path="Yocto_Dunfell/layers/meta-100ask-st" remote="github" revision="b8a11fcd024dd0b5ba2bca59660184667d3d3097"/> 
+    <project name="100askTeam/meta-swupdate" path="Yocto_Dunfell/layers/meta-100ask-st" remote="github" revision="8ad6a75e1778cdda671b3d6aea2a9692613020ec"/> 
+    <project name="100askTeam/meta-miracast" path="Yocto_Dunfell/layers/meta-100ask-st" remote="github" revision="eebe31bd8519f5c4ca6082485c79ad54107fd019"/> 
 
 
     
