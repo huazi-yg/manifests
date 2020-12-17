@@ -29,8 +29,8 @@
 
     <!-- User define meta -->
     <project name="100askTeam/meta-100ask-st" path="Yocto_Dunfell/layers/meta-100ask-st" remote="github" revision="b8a11fcd024dd0b5ba2bca59660184667d3d3097"/> 
-    <project name="100askTeam/meta-swupdate" path="Yocto_Dunfell/layers/meta-100ask-st" remote="github" revision="8ad6a75e1778cdda671b3d6aea2a9692613020ec"/> 
-    <project name="100askTeam/meta-miracast" path="Yocto_Dunfell/layers/meta-100ask-st" remote="github" revision="eebe31bd8519f5c4ca6082485c79ad54107fd019"/> 
+    <project name="100askTeam/meta-swupdate" path="Yocto_Dunfell/layers/meta-swupdate" remote="github" revision="8ad6a75e1778cdda671b3d6aea2a9692613020ec"/> 
+    <project name="100askTeam/meta-miracast" path="Yocto_Dunfell/layers/meta-miracast" remote="github" revision="eebe31bd8519f5c4ca6082485c79ad54107fd019"/> 
 
 
     
