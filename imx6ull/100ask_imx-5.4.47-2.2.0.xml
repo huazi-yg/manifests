@@ -16,6 +16,7 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://gitee.com" name="Gitee"/>
   <remote fetch="https://e.coding.net" name="Coding"/>
+  <remote fetch="https://github.com/sbabic" name="swupdate"/>
   <remote fetch="https://e.coding.net/weidongshan/" name="weidongshan"/>
   <remote fetch="https://github.com" name="github"/>
 
@@ -40,8 +41,10 @@
   <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="3533d0b4b356ba6845f30d3d9b3143bc54ae254e"/>
 
   <!-- User define -->
+  <project name="meta-swupdate" path="sources/meta-swupdate" remote="swupdate" revision="zeus"/>
+  <project name="meta-swupdate-boards" path="sources/meta-swupdate-boards" remote="swupdate" revision="master"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="5408e48d374fc741fa46b57ddfd8a537843bda6f"/>
-<project name="weidongshan/meta-imx" path="sources/meta-imx" remote="Gitee" revision="780b023a4c77ac9c0011d858ad377f4a9593bfea" >
+  <project name="weidongshan/meta-imx" path="sources/meta-imx" remote="Gitee" revision="780b023a4c77ac9c0011d858ad377f4a9593bfea" >
     <linkfile dest="imx-setup-release.sh" src="tools/imx-setup-release.sh"/>
     <linkfile dest="README-IMXBSP" src="README"/>
   </project>
