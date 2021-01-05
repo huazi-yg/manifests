@@ -26,7 +26,7 @@ git clone  https://gitee.com/oschina/repo.git
 git clone https://e.coding.net/codebug8/repo.git
 ```
 
-# 获取各个开发板源码
+# 获取视频配套各个开发板bsp源码
 ## 100ask_imx6ull_pro开发板
 ```
 book@100ask:~$ git clone https://e.coding.net/codebug8/repo.git
@@ -44,7 +44,7 @@ book@100ask:~/100ask_imx6ull_mini-sdk$  ../repo/repo init  -u  https://gitee.com
 book@100ask:~/100ask_imx6ull_mini-sdk$  ../repo/repo sync -j4
 ```
 
-## 100ask_stm32mp157_pro开发板buildroot系统
+## 100ask_stm32mp157_pro开发板
 
 ```
 book@100ask:~$ git clone https://e.coding.net/codebug8/repo.git
@@ -53,6 +53,9 @@ book@100ask:~/100ask_stm32mp157_pro-sdk$  ../repo/repo init -u  https://gitee.co
 book@100ask:~/100ask_stm32mp157_pro-sdk$  ../repo/repo sync -j4
 
 ```
+
+# 获取开发板其它版本bsp源码
+
 ## 100ask_stm32mp157_pro开发板yocto系统
 > 注意 需要下载资料光盘里的原件包，否则编译时会出现卡死问题。
 
