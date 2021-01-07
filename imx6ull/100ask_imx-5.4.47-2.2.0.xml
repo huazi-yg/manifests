@@ -41,7 +41,7 @@
   <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="3533d0b4b356ba6845f30d3d9b3143bc54ae254e"/>
 
   <!-- User define -->
-  <project name="meta-swupdate" path="sources/meta-swupdate" remote="swupdate" revision="zeus"/>
+  <project name="weidongshan/meta-swupdate" path="sources/meta-swupdate" remote="Gitee" revision="zeus"/>
   <project name="weidongshan/meta-swupdate-boards" path="sources/meta-swupdate-boards" remote="Gitee" revision="master"/>
 
   <project name="weidongshan/meta-imx" path="sources/meta-imx" remote="Gitee" revision="zeus-5.4.47-2.2.0" >
