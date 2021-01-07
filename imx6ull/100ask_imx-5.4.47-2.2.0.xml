@@ -37,14 +37,14 @@
   <project name="meta-python2" path="sources/meta-python2" remote="python2" revision="4400f9155ec193d028208cf0c66aeed2ba2b00ab"/>
   <project name="meta-qt5" path="sources/meta-qt5" remote="QT5" revision="5144a99a696a8a72c0765ea0e8be8ceafaa78f85"/>
   <project name="meta-rust" path="sources/meta-rust" remote="rust" revision="7f235b6f8973cc5269448375f2a8f9867bb2a369"/>
-
+  <project name="poky" path="sources/poky" remote="yocto" revision="5408e48d374fc741fa46b57ddfd8a537843bda6f"/>
   <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="3533d0b4b356ba6845f30d3d9b3143bc54ae254e"/>
 
   <!-- User define -->
   <project name="meta-swupdate" path="sources/meta-swupdate" remote="swupdate" revision="zeus"/>
-  <project name="meta-swupdate-boards" path="sources/meta-swupdate-boards" remote="swupdate" revision="master"/>
-  <project name="poky" path="sources/poky" remote="yocto" revision="5408e48d374fc741fa46b57ddfd8a537843bda6f"/>
-  <project name="weidongshan/meta-imx" path="sources/meta-imx" remote="Gitee" revision="780b023a4c77ac9c0011d858ad377f4a9593bfea" >
+  <project name="weidongshan/meta-swupdate-boards" path="sources/meta-swupdate-boards" remote="Gitee" revision="master"/>
+
+  <project name="weidongshan/meta-imx" path="sources/meta-imx" remote="Gitee" revision="zeus-5.4.47-2.2.0" >
     <linkfile dest="imx-setup-release.sh" src="tools/imx-setup-release.sh"/>
     <linkfile dest="README-IMXBSP" src="README"/>
   </project>
