@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <remote fetch="https://gitee.com" name="Gitee"/>
+        <remote fetch="https://e.coding.net" name="Coding"/>
+        <remote fetch="https://e.coding.net/weidongshan/" name="weidongshan"/>
+        <remote fetch="https://e.coding.net/weidongshan/imx-project" name="imx6l5project"/>
+
+        <default revision="master" remote="Coding" sync-c="true" sync-j="4"/>
+        <!-- uboot 2020.04 -->
+        <project name="imx-project/uboot-imx" path="uboot" remote="imx6l5project" revision="master"/>
+        
+        <!-- kernel -->
+        <!--<project name="weidongshan/imx-linux4.9.88" path="Linux-4.9.88" revision="master"/>-->
+        <project name="weidongshan/linux-imx" path="linuxkerenl" remote="imx6l5project" revision="master"/>
+
+        <!-- busybox -->
+        <project name="weidongshan/busybox" path="busybox" remote="Gitee"  revision="ef800e5441185585986f9b7aaf39010a926fbd5f"/>
+        
+		<!-- buildroot 2021.02.x-->
+		<project name="buildroot/buildroot" path="buildroot" remote="imx6l5project"  revision="master"/>
+		<project name="ST-Buildoot-dl/ST-Buildoot-dl" path="buildroot/dl"  remote="weidongshan"  revision="imx6ull"/>
+
+        <!-- DevelopmentEnvConf -->
+        <project name="weidongshan/DevelopmentEnvConf" remote="Coding" path="DevelopmentEnvConf" revision="master" />
+</manifest>
