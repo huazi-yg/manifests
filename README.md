@@ -34,6 +34,15 @@ book@100ask:~$ mkdir -p 100ask_imx6ull-sdk && cd 100ask_imx6ull-sdk
 book@100ask:~/100ask_imx6ull-sdk$ ../repo/repo init -u  https://gitee.com/weidongshan/manifests.git -b linux-sdk -m imx6ull/100ask_imx6ull_linux4.9.88_release.xml  --no-repo-verify
 book@100ask:~/100ask_imx6ull-sdk$  ../repo/repo sync -j4
 ```
+## 100ask_imx6ull_pro开发板linux kernel5.4版本
+
+```
+book@100ask:~$ git clone https://e.coding.net/codebug8/repo.git
+book@100ask:~$ mkdir -p 100ask_imx6ull-sdk && cd 100ask_imx6ull-sdk
+book@100ask:~/100ask_imx6ull-sdk$ ../repo/repo init -u  https://gitee.com/weidongshan/manifests.git -b linux-sdk -m imx6ull/100ask_imx6ull_linux5.4.24_release.xml  --no-repo-verify
+book@100ask:~/100ask_imx6ull-sdk$  ../repo/repo sync -j4
+```
+
 
 
 ## 100ask_imx6ull_mini开发板
