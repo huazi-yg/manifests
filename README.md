@@ -38,9 +38,9 @@ book@100ask:~/100ask_imx6ull-sdk$  ../repo/repo sync -j4
 
 ```
 book@100ask:~$ git clone https://e.coding.net/codebug8/repo.git
-book@100ask:~$ mkdir -p 100ask_imx6ull-sdk && cd 100ask_imx6ull-sdk
-book@100ask:~/100ask_imx6ull-sdk$ ../repo/repo init -u  https://gitee.com/weidongshan/manifests.git -b linux-sdk -m imx6ull/100ask_imx6ull_linux5.4.24_release.xml  --no-repo-verify
-book@100ask:~/100ask_imx6ull-sdk$  ../repo/repo sync -j4
+book@100ask:~$ mkdir -p 100ask_imx6ull_pro-sdk && cd 100ask_imx6ull_pro-sdk
+book@100ask:~/100ask_imx6ull_pro-sdk$ ../repo/repo init -u  https://gitee.com/weidongshan/manifests.git -b linux-sdk -m imx6ull/100ask_imx6ull_linux5.4.24_release.xml  --no-repo-verify
+book@100ask:~/100ask_imx6ull_pro-sdk$  ../repo/repo sync -j4
 ```
 
 
