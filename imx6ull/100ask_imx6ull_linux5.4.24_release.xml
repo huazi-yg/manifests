@@ -7,21 +7,21 @@
 
         <default revision="master" remote="Coding" sync-c="true" sync-j="4"/>
         <!-- uboot 2020.04 -->
-        <project name="imx-project/uboot-imx" path="uboot" remote="imx6ll5project" revision="master"/>
+        <project name="imx-project/uboot-imx" path="uboot" remote="weidongshan" revision="master"/>
         
         <!-- kernel -->
         <!--<project name="weidongshan/imx-linux4.9.88" path="Linux-4.9.88" revision="master"/>-->
-        <project name="weidongshan/linux-imx" path="linuxkerenl-5.4" remote="imx6ll5project" revision="master"/>
+        <project name="imx-project/linux-imx" path="linuxkerenl-5.4" remote="weidongshan" revision="master"/>
 
         <!-- busybox -->
         <project name="weidongshan/busybox" path="busybox-1.31" remote="Gitee"  revision="ef800e5441185585986f9b7aaf39010a926fbd5f"/>
 		
         <!-- buildroot 2020.02.x-->
-		<project name="buildroot/buildroot-2020" path="buildroot-2020" remote="imx6ll5project"  revision="master"/>
+		<project name="imx-project/buildroot-2020" path="buildroot-2020" remote="weidongshan"  revision="master"/>
         <project name="ST-Buildoot-dl/ST-Buildoot-dl" path="buildroot-2020/dl"  remote="weidongshan"  revision="imx6ull"/>
 
 		<!-- buildroot 2021.02.x-->
-		<project name="buildroot/buildroot-2021" path="buildroot-2021" remote="imx6ll5project"  revision="master"/>
+		<project name="imx-project/buildroot-2021" path="buildroot-2021" remote="weidongshan"  revision="master"/>
 		<project name="ST-Buildoot-dl/ST-Buildoot-dl" path="buildroot-2021/dl"  remote="weidongshan"  revision="imx6ull"/>
 
         <!-- DevelopmentEnvConf -->
