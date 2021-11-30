@@ -20,7 +20,7 @@
 	<project name="sigmstar-202d/project" path="project"  remote="weidongshan"  revision="TAKOYAKI_DLC00V030"/>
 	
 	<!-- ToolChain -->
-	<project name="sigmstar-202d/gcc-arm-8.2-2018.08-x86_64-arm-linux-gnueabihf" path="gcc-arm-8.2-2018.08-x86_64-arm-linux-gnueabihf"  remote="weidongshan" revision="master"/>	
+	<project name="sigmstar-202d/gcc-arm-8.2-2018.08-x86_64-arm-linux-gnueabihf" path="gcc-arm-8.2-2018.08-x86_64-arm-linux-gnueabihf"  remote="weidongshan" revision="TAKOYAKI_DLC00V030"/>	
 	
 	<!-- DevelopmentEnvConf -->
 	<project name="weidongshan/DevelopmentEnvConf" remote="Coding" path="DevelopmentEnvConf" revision="master"/>
