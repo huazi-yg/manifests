@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+	<default revision="master" remote="Coding" sync-c="true" sync-j="4"/>
+	<remote fetch="https://github.com" name="github"/>
+	<remote fetch="https://gitee.com" name="Gitee"/>
+	<remote fetch="https://e.coding.net" name="Coding"/>
+	<remote fetch="https://e.coding.net/weidongshan/" name="weidongshan"/>
+
+
+	<!-- uboot 2015 -->
+	<project name="sigmstar-202d/boot" path="boot" remote="weidongshan" revision="TAKOYAKI_DLC00V030"/>
+
+	<!-- kernel -->
+	<project name="sigmstar-202d/kernel" path="kernel" remote="weidongshan" revision="TAKOYAKI_DLC00V030"/>
+
+	<!-- sdk  -->
+	<project name="sigmstar-202d/sdk" path="sdk"  remote="weidongshan"  revision="TAKOYAKI_DLC00V030"/>
+
+	<!-- project  -->
+	<project name="sigmstar-202d/project" path="project"  remote="weidongshan"  revision="TAKOYAKI_DLC00V030"/>
+	
+	<!-- ToolChain -->
+	<project name="sigmstar-202d/gcc-arm-8.2-2018.08-x86_64-arm-linux-gnueabihf" path="gcc-arm-8.2-2018.08-x86_64-arm-linux-gnueabihf" revision="master"  remote="weidongshan" />	
+	
+	<!-- DevelopmentEnvConf -->
+	<project name="weidongshan/DevelopmentEnvConf" remote="Coding" path="DevelopmentEnvConf" revision="master" />
+</manifest>
+
+
