@@ -22,7 +22,7 @@
   	<project name="ToolChain-8.x/ToolChain-8.x" path="ToolChain"  remote="weidongshan"  revision="master"/>
     
     <!-- ToolChain-YoctoDunfell  -->
-    <project name="openstlinux_eglfs-linux-gnueabi/openstlinux_eglfs-linux-gnueabi" path="ToolChain/openstlinux_eglfs-linux-gnueabi"  remote="weidongshan"  revision="master"/>
+    <!--<project name="openstlinux_eglfs-linux-gnueabi/openstlinux_eglfs-linux-gnueabi" path="ToolChain/openstlinux_eglfs-linux-gnueabi"  remote="weidongshan"  revision="master"/> -->
   
 	
   	<!-- busybox -->
@@ -31,7 +31,8 @@
 
 	<!-- buildroot 2020.02.x--> 
 	<project name="weidongshan/Buildroot" path="Buildroot_2020.02.x" remote="Gitee"  revision="master"/>	
-  	<project name="ST-Buildoot-dl/ST-Buildoot-dl" path="Buildroot_2020.02.x/dl"  remote="weidongshan"  revision="master"/>
+
+  	<!-- <project name="ST-Buildoot-dl/ST-Buildoot-dl" path="Buildroot_2020.02.x/dl"  remote="weidongshan"  revision="master"/> -->
 	
     <!-- YoctoDunfell  -->
     <!-- <project name="ST-Yocto/ST-Yocto" path="Yocto_Dunfell" remote="weidongshan" revision="Dunfell"/> -->
