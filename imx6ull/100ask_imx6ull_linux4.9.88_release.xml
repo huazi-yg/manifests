@@ -25,7 +25,7 @@
 
 		<!-- buildroot 2020.02.x-->
 		<project name="buildroot/buildroot" path="Buildroot_2020.02.x" remote="weidongshan"  revision="master"/>
-		<project name="ST-Buildoot-dl/ST-Buildoot-dl" path="Buildroot_2020.02.x/dl"  remote="weidongshan"  revision="imx6ull"/>
+		<!-- <project name="ST-Buildoot-dl/ST-Buildoot-dl" path="Buildroot_2020.02.x/dl"  remote="weidongshan"  revision="imx6ull"/> -->
 
         <!-- ToolChain -->
         <project name="weidongshan/ToolChain-6.2.1" path="ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf" revision="master"  remote="Coding" />
