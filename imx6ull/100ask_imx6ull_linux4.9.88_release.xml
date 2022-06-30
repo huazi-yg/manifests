@@ -18,14 +18,14 @@
         <project name="weidongshan/imx-linux4.9.88" path="Linux-4.9.88" remote="Coding" revision="master"/>
 
         <!-- busybox -->
-        ¦<project name="weidongshan/busybox" path="Busybox_1.30.0" remote="Gitee"  revision="ef800e5441185585986f9b7aaf39010a926fbd5f"/>
+        <project name="weidongshan/busybox" path="Busybox_1.30.0" remote="Gitee"  revision="ef800e5441185585986f9b7aaf39010a926fbd5f"/>
 
         <!-- Noos project -->
 		<project name="weidongshan/imx6ull_NoosProgramProject" path="NoosProgramProject" remote="Gitee"  revision="master"/>
 
 		<!-- buildroot 2020.02.x-->
 		<project name="buildroot/buildroot" path="Buildroot_2020.02.x" remote="weidongshan"  revision="master"/>
-		<!-- <project name="ST-Buildoot-dl/ST-Buildoot-dl" path="Buildroot_2020.02.x/dl"  remote="weidongshan"  revision="imx6ull"/> -->
+		<project name="ST-Buildoot-dl/ST-Buildoot-dl" path="Buildroot_2020.02.x/dl"  remote="weidongshan"  revision="imx6ull"/>
 
         <!-- ToolChain -->
         <project name="weidongshan/ToolChain-6.2.1" path="ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf" revision="master"  remote="Coding" />
